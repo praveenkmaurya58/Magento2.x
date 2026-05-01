@@ -1,0 +1,8 @@
+<?php
+/** @var \Magento\Backend\Model\Auth\Session $adminSession */
+$objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+$adminSession = $objectManager->get('Magento\Backend\Model\Auth\Session');
+echo "Admin Log ".$adminSession->isLoggedIn();
+if($adminSession->isLoggedIn()) {
+    // Admin is logged do your stuffs here
+}

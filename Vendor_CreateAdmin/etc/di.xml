@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--
+    Dependency Injection configuration for Vendor_CreateAdmin module
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\Console\CommandList">
+        <arguments>
+            <argument name="commands" xsi:type="array">
+                <item name="vendor_admin_create" xsi:type="object">Vendor\CreateAdmin\Console\Command\CreateAdminUser</item>
+            </argument>
+        </arguments>
+    </type>
+
+   <preference for="Magento\Backend\Model\Auth" type="Vendor\CreateAdmin\Model\Auth" />
+
+</config>
+
