@@ -7,7 +7,7 @@ Welcome to my repository of custom Magento 2 / Adobe Commerce modules. This coll
 This is a monorepo containing multiple independent Magento 2 modules. Each folder in the root directory represents a distinct module that can be installed in a Magento environment.
 ```text
 Magento-2.x/
-├── Abcd_CustomProductType/    # Adds a new product type to the catalog
-├── Abcd_CustomCustomer/       # Implements custom customer types and dashboards
-├── Abcd_CustomAdminUser/      # Create Custom Admin User
+├── Vendor_CustomProductType/    # Adds a new product type to the catalog
+├── Vendor_CustomCustomer/       # Implements custom customer types and dashboards
+├── Vendor_CustomAdminUser/      # Create Custom Admin User
 └── README.md
