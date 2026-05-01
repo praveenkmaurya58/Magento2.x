@@ -1,0 +1,22 @@
+{
+    "name": "vendor/module-customproducttype",
+    "description": "Create A custom Product Type",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Praveen Kumar Maurya",
+            "email": "praveenmaurya58@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Vendor\\CustomProductType\\": ""
+        }
+    }
+}
