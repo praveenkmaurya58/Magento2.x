@@ -9,5 +9,5 @@ This is a monorepo containing multiple independent Magento 2 modules. Each folde
 Magento-2.x/
 ├── Vendor_CustomProductType/    # Adds a new product type to the catalog
 ├── Vendor_CustomCustomer/       # Implements custom customer types and dashboards
-├── Vendor_CustomAdminUser/      # Create Custom Admin User
+├── Vendor_CreateAdmin/      # Create Custom Admin User
 └── README.md
