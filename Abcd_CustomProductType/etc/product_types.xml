@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Catalog:etc/product_types.xsd">
-    <type name="my_custom_product" label="My Custom Product Type" modelInstance="Abcd\CustomProductType\Model\Product\Type\MyCustomType" indexPriority="70" sortOrder="70" isQty="true">
-        <customAttributes>
-            <attribute name="refundable" value="true"/>
-        </customAttributes>
-    </type>
-</config>
