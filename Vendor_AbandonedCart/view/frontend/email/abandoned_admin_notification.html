@@ -1,0 +1,24 @@
+<!--@subject Abandoned Cart Daily Report @-->
+<h2>Daily Abandoned Cart Report</h2>
+<p>The following carts were abandoned in the last 24 hours:</p>
+<table border="1" cellpadding="5" style="border-collapse: collapse; width: 100%;">
+    <thead>
+        <tr>
+            <th>Quote ID</th>
+            <th>Customer Email</th>
+            <th>Items</th>
+            <th>Grand Total</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{layout handle="abandoned_cart_list" quotes=$quotes}}
+        {{foreach var="quotes" as="quote"}}
+        <tr>
+            <td>{{var quote.id}}</td>
+            <td>{{var quote.customer_email|default:"Guest"}}</td>
+            <td>{{var quote.items_count}} items</td>
+            <td>{{var quote.grand_total}}</td>
+        </tr>
+        {{/foreach}}
+    </tbody>
+</table>

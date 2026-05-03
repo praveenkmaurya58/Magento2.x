@@ -1,0 +1,22 @@
+{
+    "name": "vendor/module-abandonedcart",
+    "description": "Magento Module to notify admin for abandoned cart and also after 24 hr clear the data",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Mage2Gen",
+            "email": "info@mage2gen.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Vendor\\AbandonedCart\\": ""
+        }
+    }
+}
