@@ -8,7 +8,6 @@ This is a monorepo containing multiple independent Magento 2 modules. Each folde
 ```text
 Magento-2.x/
 ├── Vendor_CustomProductType/    # Adds a new product type to the catalog
-├── Vendor_CustomCustomer/       # Implements custom customer types and dashboards
 ├── Vendor_CreateAdmin/          # Create Custom Admin User
 ├── Vendor_AbandonedCart/        # Abandoned Cart Notification and data cleanup
 ├── Vendor_ProductPrice/         # Add Surplus changes in the Product Price
